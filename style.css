@@ -1,0 +1,78 @@
+body{
+    margin: 10;
+}
+p{
+    font-family: Courier;
+    color: black;
+}
+h4 {
+    font-family: Courier;
+    text-align: center;
+    color: white;
+}
+h2 {
+    font-family: Courier;
+}
+
+
+.draggable{
+    text-align: center;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid black;
+    cursor: move;
+}
+.draggable.dragging{
+    opacity: 0.5;
+}
+
+/* Containers to store the different classes  */
+.container{
+    overflow: auto;
+    float: left;
+    background-color: #333;
+    padding: 1rem;
+    width: 420px;
+    height: 440px;
+    margin-top: 0.25rem;
+    margin-left: 1rem;
+}
+.coreContainer{
+    width: 200px;
+    height:  300px;
+    background-color: rgb(4, 63, 119);
+}
+.electiveContainer{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(140, 71, 143);
+}
+.transferedContainer{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(224, 121, 169);
+}
+
+
+/* assign to classes that can only be taken in spring
+or fall */
+
+.fallClass{ 
+    background-color: rgb(228, 201, 166);
+}
+.springClass{
+    background-color: rgb(171, 228, 166);
+}
+
+/* SPRING or FALL semester  */
+.springSem{
+    background-color: rgb(12, 37, 31)
+}
+.fallSem{
+    background-color: rgb(43, 29, 17)
+}
+
+
+.Core{
+    background-color: rgb(121, 169, 224);
+}
