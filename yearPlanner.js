@@ -154,7 +154,7 @@ function updateCredits(){
     total += numCredits;
     document.getElementById("springThreeCreditVal").innerHTML = ("Credits " + (numCredits));
 
-    //Fall 4
+    //Falld 4
     numCredits = calcCredits(6);
     total += numCredits;
     document.getElementById("fallFourCreditVal").innerHTML = ("Credits " + (numCredits));
