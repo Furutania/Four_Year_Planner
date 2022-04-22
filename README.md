@@ -1,5 +1,5 @@
 # Four_Year_Planner
-Create a simple drag and drop application for planning out 4 years at UP
+Create a simple drag and drop application for planning out 4 years at UP \n
 Tracks:
   Number of credits, per semester and total 
   If a class is fall or spring only 
